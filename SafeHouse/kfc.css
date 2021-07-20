@@ -1,0 +1,378 @@
+:root{
+  --common-text:oldlace;
+}
+body{
+  background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#hellomama{
+  color:blue;
+}
+
+.section-mama h1{
+  color:green !important;
+}
+.section-mama h1{
+  color:red !important;
+}
+@media all (max-width:30px){
+ body{
+   color:yellow;
+ }
+}
+
+
+.h1-text{
+  background:transparent;
+    color:var(--common-text);
+    font-family: 'Mate SC', serif;
+    font-size:1.71em;
+    text-align:center;
+    padding-bottom: 0em;
+    margin: 14px 0px 30px 0px;
+  }
+
+}
+ .div2{
+
+position:relative;
+left:3001px;
+text-align: center;
+/*margin-left:1160px;*/
+ }
+ #hover{
+   border:2px solid black ;
+   border-radius: 11px;
+   width:434px;
+
+transition: 0.6s;
+ }
+ #hover:hover{
+margin:20px 10px 0px 20px;
+   box-shadow: 13px 18px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ }
+.para1{
+
+  text-align: center;
+ color:var(--common-text);
+  font-family:'Mate SC', serif;
+  font-size:31px;
+  font-style:normal;
+  font-weight: 500;
+  /*text-decoration: underline;*/
+}
+.para1:hover{
+    color:LightSteelBlue;
+}
+.div3{
+  text-align: center;
+ margin-top: 61px;
+}
+
+.inputs{
+
+  text-align: left;
+  margin-left:-153px;
+  padding:10px;
+  height:35px;
+  width:88px;
+  border-style:dotted;
+  border-color:transparent;
+  border-radius:11%;
+  color:black;
+  cursor: pointer;
+}
+
+.h3text{
+  font-family: 'Josefin Sans', sans-serif;
+  color:rgb(100,160,190);
+  font-size:17px;
+
+
+}
+
+.un{
+  color:transparent;
+  font-family:'Mate SC', serif;
+  font-size:14px;
+  margin-bottom:23px;
+  position:relative;
+  text-align:left;
+  transition: 1.8s;
+  background-color: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pw{
+  background-color: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family:'Mate SC', serif;
+  font-size:14px;
+  margin-top:40px;
+  margin-bottom:23px;
+  position:relative;
+  text-align:left;
+  transition: 1.2s;
+  color:transparent;
+}
+
+.un:hover{
+  width:250px;
+  height: 30px;
+  border-style:double;
+  border-radius:4%;
+  border-color: #0F2027;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom:30.7px;
+  padding:2px;
+  text-align:left bottom ;
+  color:oldlace;
+  font-family: 'Roboto Slab', serif;
+  cursor: vertical-text;
+  background: #BA8B02;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.un::after{
+  transition: 10s;
+}
+
+.pw:hover{
+  margin-bottom:15px;
+  width:230px;
+  height: 38px;
+  border-style:inset;
+  border-radius:4%;
+  /*border-color*/: #DAE2F8;  /* fallback for old browsers */
+  #DAE2F8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding:5px;
+  text-align:left bottom ;
+  color:ghostwhite;
+  font-family: 'Roboto Slab', serif;
+  cursor: vertical-text;
+  #DAE2F8;  /* fallback for old browsers */
+  background: #BA8B02;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.div4{
+  text-align: center;
+  margin-top:20px;
+  margin-left:-30px;
+
+}
+
+.forgot{
+
+  color:LightSteelBlue;
+  font-size:25px;
+}
+                               .forgot:hover{
+                                 color:oldlace;
+                               }
+
+.instruct{
+  color:rgb(20,75,85);
+}
+
+.done{
+  margin: -25px;
+font-size:10px;
+background:black;
+color:white;
+border-style: solid;
+border-color:transparent;
+height: 31px;
+border-width: 2px;
+width:91px;
+cursor: pointer;
+transition: 0.7s;
+}
+
+.done:hover{
+  font-size:15px;
+  background: transparent;
+  border-color:rgb(2,5,25);
+  border-width:1px;
+  width: 93px;
+}
+  .bt1{
+    margin-top:0px;
+    margin-left:6px;
+    position:absolute;
+    height: 27px;
+    width:57px;
+    background-color:transparent;
+    font-family: 'Mate SC', serif;
+    font-size:11px;
+    border-radius:10px;
+    border-style:ridge;
+    border-color:black;
+    border-width:2px;
+    transition: 1s;
+  }
+  .bt1:hover{
+color:white;
+width:83px;
+height: 35px;
+background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-size:19px;
+border-radius:10%;
+border-color:transparent;
+
+  }
+
+
+.s-div1{
+  text-align: center;
+}
+
+.s-h4{
+  position: relative;
+  margin:24px 34px 40px 20px;
+  font-size:50px;
+  font-family: 'Mate SC', serif;
+  text-decoration:underline;
+  color:rgb(234,221,222);
+   }
+.s-div2{
+text-align: center;
+margin: -2px 0px 8px 0px;
+
+}
+.s-inputs{
+border-radius: 5%;
+border-style:inset;
+border-color:transparent;
+background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 41px;
+width:331px;
+font-size:20px;
+font-family: 'Viaoda Libre', cursive;
+font-style:bold;
+margin-bottom:20px;
+transition: 1s;
+}
+.s-un:hover{
+  background: #BA8B02;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-color:gray;
+border-style: inset;
+border-radius: 2%;
+  color:oldlace;
+width:377px;
+height:51px;
+}
+.s-pw:hover{
+       background: #BA8B02;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ border-color:gray;
+     border-style: inset;
+       border-radius: 2%;
+         color:oldlace;
+           height:48px;
+               color:oldlace;
+                   width:397px;
+}
+.s-cpw:hover{
+                        background: #BA8B02;  /* fallback for old browsers */
+                   background: -webkit-linear-gradient(to right, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
+                 background: linear-gradient(to right, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+             border-color:gray;
+         border-style: inset;
+        border-radius: 2%;
+    height:48px;
+  color:oldlace;
+width:400px;
+}
+.s-div3{
+text-align: center;
+margin:18px 0px 0px 0px;
+}
+.button{
+                 border-style:inset;
+               height:31px;
+              width: 81px;
+            background: #485563;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  cursor : pointer;
+color:dimgray;
+transition: 2s;
+}
+.confirm-button:hover{
+  transition: 2s;
+    height:36px;
+      width:700px;
+        background: #8E0E00;  /* fallback for old browsers */
+         background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+           background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                 color:oldlace;
+
+}
+
+.source{
+text-align: center;
+}
+.srcbt{
+margin: 11px;
+color:dimgray;
+cursor:pointer;
+background-color: transparent;
+border-style: outset;
+border-color:dimgray;
+height: 37px;
+width: 78px;
+transition: 0.7s;
+}
+.srcbt:hover{
+border-style:inset;
+height: 30px;
+width: 60px;
+font-size:10px;
+padding:4px;
+color:rgb(234,221,222);
+}
+.srcbt1:hover{
+background: #4267B2;
+}
+.srcbt2:hover{
+  background: #40E0D0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:black;
+font-family:'Josefin Sans', sans-serif;
+}
+.srcbt3:hover{
+  background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:black;
+font-family: 'josefin sans',sans-serif;
+font-size:
+}
+.srcbt4:hover{
+  background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:black;
+font-family: 'josefin sans',sans-serif;
+}

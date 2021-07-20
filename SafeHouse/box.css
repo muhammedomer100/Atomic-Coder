@@ -1,0 +1,41 @@
+:root{
+  --common-textcolor:black;
+}
+.ctn{
+  background:white;
+  border: 1px solid black;
+  border-radius:10px;
+  margin:10px 5px;
+  width:245px;
+  padding:10px;
+}
+.content{
+  padding:10px;
+}
+.h1-text{
+
+
+ margin:-10px 0px 10px;
+  font-family:consolas;
+  text-align: center;
+}
+.p1-text{
+
+  font-size:19px;
+  text-align:center;
+  color: var(--common-textcolor)
+}
+.links1{
+ background:#ccc;
+  font-family:sans-serif;
+  text-align:center;
+  margin: -6px 7px 4px ;
+
+}
+#bee{
+  transition: 0.6s;
+}
+#bee:hover{
+box-shadow: 4px 10px 10px rgba(100,0,59,0.19), 0 6px 6px rgba(10,110,0,0.23);
+
+}

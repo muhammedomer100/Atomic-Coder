@@ -1,0 +1,445 @@
+:root{
+  --head-text:'Faster One', cursive;
+  --heatup-family:/*font-family:*/ 'consolas';
+  --verses-family: /*font-family:*/ 'Poppins', sans-serif;
+  --underlines-big: oldlace;
+}
+
+body{
+
+  background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+ /* NAVIGATION BAR */
+#navigation{
+  margin-bottom: 30px;
+  padding:6px;
+  position: fixed;
+  left: 0px;
+  top:0px;
+  /* width: 93%; */
+  width :1458px;
+   /* Background-color:  rgb(13,211,241); */
+   background-color : rgba(22, 10, 10, 0.6 );
+
+
+}
+nav ul{
+
+  margin:0px;
+  padding: 2px 2px 5px 4px;
+}
+
+nav li{
+  font-family: consolas;
+  font-size:19px;
+  margin-left: 30px;
+  display: inline;
+}
+a {
+  color : rgb(255,241, 250);
+}
+.home{
+  transition: 0.6s;
+}
+.home:hover{
+  background-color: rgba(255,255,255,0.5);
+  color : rgb(1,1,1);
+  border : 1px solid rgba(1,1,1,1);
+  border-radius :46px;
+}
+.contacts {
+  transition: 0.8s;
+
+}
+.contacts:hover{
+  background-color: rgba(255,255,255,0.5);
+  color : rgb(1,1,1);
+  border : 1px solid rgba(1,1,1,1);
+  border-radius :46px;
+}
+.nav-signup{
+  position : relative;
+  left:1100px;
+  transition: 0.5s;
+}
+.nav-signup:hover{
+  background-color : rgba(122,122,122,0.8);
+  color : rgb(100,200,200);
+  border : 1px solid rgb(12,200,200);
+  border-radius : 44px;
+
+}
+
+.settings{
+  position : relative;
+  left:870px;
+  transition: 0.5s;
+}
+.setting-image{
+  position : relative;
+  left : 850px;
+  width :28px;
+  height : 25px;
+}
+.settings:hover{
+  background-color : rgba(122,122,122,0.4);
+  color : rgb(100,200,200);
+  border : 1px solid rgb(12,200,200);
+  border-radius : 55px;
+}
+/*HEAAADERRRRR*/
+.website{
+  background-color: black;
+  width:100%;
+  position:relative;
+  right: 20px;
+  margin-top: 35px;
+
+}
+.website-heading{
+  text-align: center;
+  font-family: monospace;
+font-size: 45px;
+  right:610px;
+  width: 102%;
+  background: #ff4b1f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1fddff, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height:50px;
+ color: black;
+  }
+  .service{
+  text-align: center;
+  position:relative;
+  padding: 9px;
+}
+
+
+.heading{
+  margin-top: -7px;
+  font-size:37px;
+  font-family: 'Viaoda Libre', cursive;
+  text-decoration: underline;
+}
+
+
+.search{
+  margin-top: 4px;
+  color:blacke;
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: #C9D6FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ font-size:15px;
+ text-align:justify left;
+  Width:423px;
+  height:31.50px;
+  border: 1px hidden transparent;
+  border-radius: 17px;
+  padding:1px;
+}
+#search-hov{
+box-shadow: 40px 10px 20px rgba(30px 30px 30px 0.14px);
+  transition: 0.8s
+}
+
+#search-hov:hover{
+  margin:3px;
+  box-shadow: -4px 6px 1px rgba( 0,0,0, 0.6);
+    Width:440px;
+    height:31.50px;
+
+}
+
+.butn1{
+  color:slategray;
+  cursor: pointer;
+  position:relative;
+  right:62px;
+  Width:64px;
+  height:31.50px;
+  border: 1px hidden transparent;
+  border-radius: 17px;
+  padding:1px;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#butn1-hov{
+ transition: 0.8s;
+}
+
+
+#butn1-hov:hover{
+  font-size:15px;
+  width:72px;
+}
+
+.most{
+  text-align: center;
+}
+.TST{
+  font-size : 30px;
+  font-family:'Viaoda Libre', cursive;
+  text-decoration: underline;
+}
+/* CONTAINER-1-Start */
+.container1{
+  padding: 7px;
+  position:relative;
+  left: 15px;
+  text-align: center;
+  border:1px solid  #ccc;
+  border-radius: 15px;
+  width:380px;
+  height: 570px;
+  transition: 1s;
+}
+.container1:hover{
+  height:560px;
+  margin:6px;
+  box-shadow: -5px 10px 9px rgba( 0,0,0, 0.6);
+}
+.lgbtq-contents{
+  margin-top: -10px;
+}
+.lgbtq{
+/* font-family: 'Faster One', cursive; */
+font-family: var(--head-text);
+font-size:44px;
+margin-top:18px;
+margin-bottom: -8px;
+transition: 0.6s;
+  cursor:pointer;
+}
+.lgbtq:hover{
+  text-decoration: underline;
+}
+
+
+.heatup1{
+  font-family: var(  --heatup-family);
+  font-size:20px;
+}
+
+.lgbtq-despcription{
+  position: relative;
+  bottom:15px;
+  padding:14px;
+  line-height: 21px;
+  font-weight:normal;
+  font-family: var(  --verses-family);
+}
+
+/* CONTAINER-1-END */
+/*container2*/
+
+
+.container2{
+  /* cursor: text; */
+  position:relative;
+  left: 490px;
+  bottom: 590px;
+  text-align: center;
+  border:1px solid  #ccc;
+  border-radius: 15px;
+  width:380px;
+  height: 570px;
+  transition: 0.7s;
+  padding: 10px;
+
+}
+.container2:hover{
+    height:571px;
+    margin-left : 8px;
+    margin-top: 2px;
+    padding: 7px;
+    box-shadow: -10px 10px 10px rgba(15, 10, 20, 0.5);
+  }
+
+.astro-contents{
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+
+.astrology{
+  /* font-family: 'Faster One', cursive; */
+  font-family: var(--head-text);
+  font-size:44px;
+  margin-top:-14px;
+  margin-bottom: 20px;
+  transition: 0.8s;
+  cursor:pointer;
+}
+.astrology:hover{
+    text-decoration: underline;
+}
+
+.heatup2{
+  font-size: 19px;
+    font-family: var(  --heatup-family);
+}
+.astro-descriptions{
+
+  padding:20px;
+}
+
+.astro-verses{
+    font-family: var(  --verses-family);
+    line-height: 25px;
+  font-weight:normal;
+  cursor: text;
+}
+
+/* CONTAINER-2-END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOOTEEEERRRRRRRR*/
+.black-footer{
+  background:black;
+}
+  .footer-heading{
+    text-align: center;
+    font-family: monospace;
+    background: #1a2a6c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   position: relative;
+    right:30px;
+    width: 1468px;
+  }
+
+
+
+
+
+/* CONTAINER 3 */
+hr{
+  color:black;
+}
+.container-3{
+  text-align: center;
+  padding: 10px;
+  position : relative;
+ left: 977px;
+ bottom : 1185px;
+  width:380px;
+  height: 577px;
+  border : 1px solid #ccc;
+  border-radius: 15px;
+  transition: 0.8s;
+
+}
+.container-3:hover{
+  margin:-8px 0px 0px 5px;
+  box-shadow: -10px 10px 10px rgba(15, 10, 20, 0.5)
+
+}
+
+.shirk{
+  margin-top: 10px;
+  font-size: 34px;
+  /* font-family:  'Faster One', cursive; */
+  font-family: var(--head-text);
+transition: 2.8s;
+cursor: pointer;
+
+}
+.shirk:hover{
+    text-decoration: underline;
+}
+
+.heatup3{
+font-size : 19px;
+  font-family: var(  --heatup-family);
+}
+.shirk-descriptions{
+  /* padding: 3px; */
+}
+
+.shirk-verses{
+    font-family: var(  --verses-family);
+  line-height: 22px;
+}
+
+
+/* ENDBUTTON */
+/* VIEW-MORE-BUTTON */
+/*.view-more-box{
+  position:relative;
+  left: 600px;
+  bottom: 1100px;
+
+}*/
+.big-underwtf{
+  color : var(--underlines-big);
+  position:relative;
+  font-weight: bolder;
+}
+.big-underline{
+  position : relative ;
+  bottom : 1145px;
+  color : var(--underlines-big);
+  font-weight: bolder;
+}
+.view-more-button{
+  position:relative;
+  left: 560px;
+  bottom: 1145px;
+  display: inline;
+  transition: 0.8s;
+  cursor : pointer;
+  width:320px;
+  height:38px;
+  border: 1px solid rgba(20,20,20,0.2);
+  border-radius : 44px;
+  font-size : 18px;
+  font-family : var(--heatup-family);
+  color : rgb(200,211, 222);
+  background-color : gray;
+}
+.view-more-button:hover{
+  background-color : black;
+  color : white;
+
+}
+
+
+/* POST-YOUR-QUESTION-UTTOTN  */
+
+.post-question-button{
+  position: relative;
+  bottom : 875px;
+  left : 503px;
+  border :2px solid azure;
+  border-radius : 34px;
+  font-size : 20px;
+  font-family : var(--heatup-family);
+  width : 429px;
+  height : 33px;
+
+}

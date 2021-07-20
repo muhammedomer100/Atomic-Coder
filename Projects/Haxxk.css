@@ -1,0 +1,27 @@
+body{
+  color : rgb(123, 111, 0 );
+  background-color: black;
+}
+.first-container{
+  margin : 20px, 21px , 0px , 1px;
+  border-color : rgb(22,222,212);
+  border: 2px solid;
+  padding: 3px;
+  height : 90px;
+  width : 152px;
+  transition : 0.7s;
+
+}
+.firsr-container:hover{
+  color : pink;
+  font-size  : 33px;
+}
+.h3{
+  transition : 0.8s;
+  cursor : pointer;
+
+}
+.h3::hover{
+  color : pink;
+  font-size  : 33px;
+}

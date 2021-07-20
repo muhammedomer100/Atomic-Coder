@@ -1,0 +1,230 @@
+body{
+  background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*HEAAADERRRRR*/
+.website{
+  background-color: black;
+  width:100%;
+  position:relative;
+  right: 20px;
+  margin-top: 35px;
+
+}
+.website-heading{
+  text-align: center;
+  font-family: monospace;
+font-size: 45px;
+  right:610px;
+  width: 110%;
+  background: #ff4b1f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1fddff, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height:50px;
+ color: black;
+  }
+  .service{
+  text-align: center;
+  position:relative;
+  padding: 9px;
+}
+
+
+.heading{
+  margin-top: -7px;
+  font-size:37px;
+  font-family: 'Viaoda Libre', cursive;
+  text-decoration: underline;
+}
+
+
+.search{
+  margin-top: 4px;
+  color:blacke;
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: #C9D6FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ font-size:15px;
+ text-align:justify left;
+  Width:423px;
+  height:31.50px;
+  border: 1px hidden transparent;
+  border-radius: 17px;
+  padding:1px;
+}
+#search-hov{
+box-shadow: 40px 10px 20px rgba(30px 30px 30px 0.14px);
+  transition: 0.8s
+}
+
+#search-hov:hover{
+  margin:3px;
+  box-shadow: -4px 6px 1px rgba( 0,0,0, 0.6);
+    Width:440px;
+    height:31.50px;
+
+}
+
+
+.butn1{
+  color:slategray;
+  cursor: pointer;
+  position:relative;
+  right:62px;
+  Width:64px;
+  height:31.50px;
+  border: 1px hidden transparent;
+  border-radius: 17px;
+  padding:1px;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#butn1-hov{
+ transition: 0.8s;
+}
+
+
+#butn1-hov:hover{
+  font-size:15px;
+  width:72px;
+}
+
+.most{
+  text-align: center;
+}
+.TST{
+  font-size : 30px;
+  font-family:'Viaoda Libre', cursive;
+  text-decoration: underline;
+}
+
+.container1{
+  padding: 7px;
+  position:relative;
+  left: 15px;
+  text-align: center;
+  border:1px solid gray;
+  border-radius: 15px;
+  width:380px;
+  height: 570px;
+  transition: 1s;
+}
+.container1:hover{
+  height:560px;
+  margin:6px;
+  box-shadow: -5px 10px 9px rgba( 0,0,0, 0.6);
+}
+.lgbtq-contents{
+  margin-top: -10px;
+}
+.lgbtq{
+font-family: 'Faster One', cursive;
+font-size:44px;
+margin-top:18px;
+margin-bottom: -8px;
+}
+
+
+.heatup1{
+  font-size:20px;
+}
+
+.lgbtq-despcription{
+  position: relative;
+  bottom:15px;
+  padding:14px;
+  line-height: 21px;
+  font-weight:normal;
+}
+
+
+/*container2*/
+
+
+.container2{
+  cursor: text;
+  position:relative;
+  left: 490px;
+  bottom: 590px;
+  text-align: center;
+  border:1px solid  #ccc;
+  border-radius: 15px;
+  width:380px;
+  height: 570px;
+  transition: 0.7s;
+  padding: 10px;
+
+}
+.container2:hover{
+    height:571px;
+    margin-left : 8px;
+    margin-top: 2px;
+    padding: 7px;
+    box-shadow: -10px 10px 10px rgba(15, 10, 20, 0.5);
+  }
+
+.astro-contents{
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+
+.astrology{
+  font-family: 'Faster One', cursive;
+  font-size:44px;
+  margin-top:-14px;
+  margin-bottom: 20px;
+}
+
+
+.heatup2{
+  font-size: 19px;
+}
+.astro-descriptions{
+
+  padding:20px;
+}
+
+.astro-verses{
+    line-height: 25px;
+  font-weight:normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOOTEEEERRRRRRRR*/
+.black-footer{
+  background:black;
+}
+  .footer-heading{
+    text-align: center;
+    font-family: monospace;
+    background: #1a2a6c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   position: relative;
+    right:30px;
+    width: 1468px;
+  }
